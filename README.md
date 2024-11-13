@@ -30,4 +30,34 @@ To set up and run the Movie Recommendation System locally, follow these steps:
 2. **Navigate to the Project Directory**
      ```bash
      cd movie-recommendation-system
+3. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+4. Run the Application
+   ```bash
+   python app.py
+## Usage
+1. **Select a Movie**: Choose a movie from the list or search by title.
+2. **Get Recommendations**: The system will display a list of similar movies based on your selection.
+3. **Explore Further**: Click on any recommended movie to see more details and further recommendations.
+
+## Dependencies
+- **Python 3.8+**
+- **pandas**: For data handling and manipulation
+- **numpy**: For numerical operations
+- **scikit-learn**: For cosine similarity calculation
+- **Flask** (optional): If creating a web interface for the application
+
+## Contributing
+Contributions are welcome! Please feel free to submit issues and pull requests.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+For more information, feel free to reach out:
+
+- Email: durgadevi12302003@gmai.com.
+- GitHub: https://github.com/Durgadevi12302003
+
 
